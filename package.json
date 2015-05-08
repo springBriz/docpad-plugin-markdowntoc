@@ -1,16 +1,16 @@
 {
-  "name": "docpad-plugin-yourpluginname",
+  "name": "docpad-plugin-markdowntoc",
   "version": "2.0.0",
-  "description": "DocPad plugin that adds the ability to render Something to Something Else",
-  "homepage": "https://github.com/yourgithubusername/docpad-plugin-yourpluginname",
+  "description": "DocPad plugin that generates TOC from markdown",
+  "homepage": "https://github.com/springbriz/docpad-plugin-markdowntoc",
   "license": {
     "type": "MIT"
   },
   "keywords": [
     "docpad",
     "docpad-plugin",
-    "something",
-    "somethingelse"
+    "markdown-toc",
+    "markdowntoc"
   ],
   "badges": {
     "travis": true,
@@ -24,21 +24,17 @@
     "bitcoin": "https://coinbase.com/checkouts/9ef59f5479eec1d97d63382c9ebcb93a",
     "wishlist": "http://amzn.com/w/2F8TXKSNAFG4V"
   },
-  "author": "Copyright holders name <copyright holder's email> (copyright holder's website url)",
+  "author": "springBriz <aprilbriz@gmail.com> (http://aprilbriz.com)",
   "maintainers": [
-    "Your name <your email> (your github url)",
-    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+    "springBriz <aprilbriz@gmail.com> (https://github.com/springBriz)"
   ],
-  "contributors": [
-    "balupton (https://github.com/balupton)",
-    "RobLoach (https://github.com/RobLoach)"
-  ],
+  "contributors": [],
   "bugs": {
-    "url": "https://github.com/yourgithubusername/docpad-plugin-yourpluginname/issues"
+    "url": "https://github.com/springbriz/docpad-plugin-markdowntoc/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourgithubusername/docpad-plugin-yourpluginname.git"
+    "url": "https://github.com/springbriz/docpad-plugin-markdowntoc.git"
   },
   "engines": {
     "node": ">=0.8"
@@ -50,12 +46,11 @@
   "devDependencies": {
     "docpad": "6",
     "coffee-script": "^1.9.1",
-    "projectz": "^0.5.0"
+    "projectz": "^0.5.0",
+    "markdown-toc": "^0.11.3"
   },
-  "main": "./out/yourpluginname.plugin.js",
-  "scripts": {
-    "test": "node ./out/yourpluginname.test.js"
-  },
+  "main": "./out/markdowntoc.plugin.js",
+  "scripts": {},
   "cakeConfiguration": {
     "COFFEE_SRC_PATH": "src"
   }
