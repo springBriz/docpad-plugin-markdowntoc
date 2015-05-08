@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-markdowntoc",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "DocPad plugin that generates TOC from markdown",
   "homepage": "https://github.com/springbriz/docpad-plugin-markdowntoc",
   "license": {
