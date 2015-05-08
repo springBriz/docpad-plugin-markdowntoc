@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-markdowntoc",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "DocPad plugin that generates TOC from markdown",
   "homepage": "https://github.com/springbriz/docpad-plugin-markdowntoc",
   "license": {
@@ -28,7 +28,11 @@
   "maintainers": [
     "springBriz <aprilbriz@gmail.com> (https://github.com/springBriz)"
   ],
-  "contributors": [],
+  "contributors": [
+    "balupton (https://github.com/balupton)",
+    "RobLoach (https://github.com/RobLoach)",
+    "springBriz <aprilbriz@gmail.com> (https://github.com/springBriz)"
+  ],
   "bugs": {
     "url": "https://github.com/springbriz/docpad-plugin-markdowntoc/issues"
   },
@@ -42,12 +46,13 @@
   "peerDependencies": {
     "docpad": "6"
   },
-  "dependencies": {},
+  "dependencies": {
+    "markdown-toc": "^0.11.3"
+  },
   "devDependencies": {
     "docpad": "6",
     "coffee-script": "^1.9.1",
-    "projectz": "^0.5.0",
-    "markdown-toc": "^0.11.3"
+    "projectz": "^0.5.0"
   },
   "main": "./out/markdowntoc.plugin.js",
   "scripts": {},

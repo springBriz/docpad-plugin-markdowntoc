@@ -70,8 +70,13 @@ No sponsors yet! Will you be the first?
 
 ### Contributors
 
-No contributors yet! Will you be the first?
-[Discover how you can contribute by heading on over to the `CONTRIBUTING.md` file.](https://github.com/springbriz/docpad-plugin-markdowntoc/blob/master/CONTRIBUTING.md#files)
+These amazing people have contributed code to this project:
+
+- [balupton](https://github.com/balupton) — [view contributions](https://github.com/springbriz/docpad-plugin-markdowntoc/commits?author=balupton)
+- [RobLoach](https://github.com/RobLoach) — [view contributions](https://github.com/springbriz/docpad-plugin-markdowntoc/commits?author=RobLoach)
+- [springBriz](https://github.com/springBriz) <aprilbriz@gmail.com> — [view contributions](https://github.com/springbriz/docpad-plugin-markdowntoc/commits?author=springBriz)
+
+[Become a contributor!](https://github.com/springbriz/docpad-plugin-markdowntoc/blob/master/CONTRIBUTING.md#files)
 
 <!-- /BACKERS -->
 
