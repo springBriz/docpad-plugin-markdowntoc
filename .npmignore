@@ -13,6 +13,7 @@ node_modules/
 
 # Private Files
 .env
+.idea
 
 # Development Files
 .editorconfig
