@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-markdowntoc",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "DocPad plugin that generates TOC from markdown",
   "homepage": "https://github.com/springbriz/docpad-plugin-markdowntoc",
   "license": {
@@ -55,7 +55,9 @@
     "projectz": "^0.5.0"
   },
   "main": "./out/markdowntoc.plugin.js",
-  "scripts": {},
+  "scripts": {
+    "test": "node ./out/markdowntoc.test.js"
+  },
   "cakeConfiguration": {
     "COFFEE_SRC_PATH": "src"
   }
